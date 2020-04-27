@@ -1,6 +1,6 @@
-node ansible_port=2223 ansible_host=192.168.1.44
-test_server ansible_port=2224 ansible_host=192.168.1.44
-app_server ansible_port=2225 ansible_host=192.168.1.44
+node_jenkins ansible_port=2223 ansible_host=192.168.56.1
+test_server ansible_port=2225 ansible_host=192.168.56.1
+app_server ansible_port=2226 ansible_host=192.168.56.1
 
 [server]
 test_server
